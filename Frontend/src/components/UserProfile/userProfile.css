@@ -1,0 +1,127 @@
+/* userProfile.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-dashboard {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px auto;
+    max-width: 1000px;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-overview {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ff4c60;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    padding: 15px 0;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-list li:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .nav-list .active {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* Profile Details Section */
+  .profile-details-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: 20px;
+  }
+  
+  .profile-details-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .profile-details {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .info-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .info-group label {
+    font-weight: bold;
+    width: 30%;
+    color: #555;
+  }
+  
+  .info-group p,
+  .info-group input {
+    width: 65%;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .info-group input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-btn, .save-btn {
+    background-color: #ff4c60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .edit-btn:hover, .save-btn:hover {
+    background-color: #ff6b81;
+  }
+  

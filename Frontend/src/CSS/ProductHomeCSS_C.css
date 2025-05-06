@@ -1,0 +1,247 @@
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 8rem; /* Adjust width as needed */
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  @media (max-width: 640px) {
+    .dropdown-menu {
+      width: auto;
+    }
+  }
+  
+
+  .product-section {
+    background-color: #EEEBEB; /* Blue-100 */
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trending-section{
+    background-color: #4D4D4D;
+    min-height: 65vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .other-section{
+    min-height: 65vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  .section-header-trending {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem; /* Adjust as needed */
+    color: #C8C1C1; 
+  }
+
+  .section-header {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem; /* Adjust as needed */
+    color: #4D4D4D; 
+  }
+
+  .shop-now-btn{
+    font-size: 1.2rem;
+    background: #4a90e2;
+    width: 180px;
+    padding: 10px 10px 10px 40px;
+    margin-right: 700px;
+    border-radius: 10px;
+    color:white;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-item {
+    flex-shrink: 0;
+    margin: 0.5rem;
+  }
+
+
+  .container_p {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    height: 80%; /* Adjust as needed */
+    background-color: #e0f2fe; /* Background color */
+  }
+
+  .image-container_p {
+    border: 2px solid blue; /* Border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    background-color: white; /* Inner background color */
+  }
+
+  .image-container_p img {
+    max-width: 100%;
+    height: 80%;
+    display: block;
+    margin: 0 auto; /* Center image */
+  }
+
+
+
+
+  /* search bar */
+
+.sub-navi{
+  display: flex;
+}
+  /* Container */
+.search-container {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 2px;
+  padding: 0 0.5rem;
+  width: 500px;
+  margin-right: 100px;
+  
+}
+
+/* Search bar wrapper */
+.search-bar-wrapper {
+  display: flex;
+  gap: 1rem; /* Adjust space between elements if needed */
+  width: 100%;
+  max-width: 1024px; /* Equivalent to max-w-screen-lg */
+  align-items: center;
+  margin-bottom: 3px;
+  
+}
+
+/* Search bar input */
+.search-bar {
+  flex-grow: 1;
+  padding: 0.25rem 0.5rem;
+  color: #1e3a8a; /* text-blue-900 */
+  background-color: white;
+  border: 1px solid #1e3a8a; /* border-blue-900 */
+  border-radius: 9999px; /* rounded-full */
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  height: 50px;
+}
+
+.search-bar:focus {
+  border-color: #1e3a8a; /* focus:border-blue-900 */
+  box-shadow: 0 0 0 2px rgba(30, 58, 138, 0.4); /* focus:ring-blue-900, focus:ring-opacity-40 */
+}
+
+
+/* sub navi */
+
+.cloth-type{
+  padding: 10px;
+  margin: 10px 15px 30px 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cloth-suggesions{
+  background: #D9D9D9;
+  border-radius: 5px;
+}
+
+
+/* banner */
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideshow-slide {
+  display: none;
+  position: relative;
+}
+
+.slideshow-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.fade {
+  display: block;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

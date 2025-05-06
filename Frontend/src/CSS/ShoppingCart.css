@@ -1,0 +1,191 @@
+.shopping-cart {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #def0f0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-title {
+  font-size: 30px; /* Adjust font size as needed */
+  font-weight: bold; /* Make the title bold */
+  margin-bottom: 10px; /* Adjust bottom margin as needed */
+  text-align: center; /* Align the title to the center */
+  color: #333; /* Title color */
+  text-transform: uppercase; /* Convert text to uppercase */
+  background-image: linear-gradient(to right, #011231, #017997); /* Gradient colors */
+  -webkit-background-clip: text; /* Clip text to the gradient */
+  background-clip: text; /* Clip text to the gradient */
+  -webkit-text-fill-color: transparent; /* Hide text color to allow gradient to show */
+  font-style: italic;
+}
+
+
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.item-photo {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.item-price {
+  font-size: 18px;
+  
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  padding: 8px 15px;
+  margin-right: 8px;
+  border: none;
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.action-button:hover {
+  background: linear-gradient(45deg, #0056b3, #0097a7);
+}
+
+.item-quantity {
+  font-size: 18px;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+.delete-button {
+  background: linear-gradient(45deg, #cf0a0a, #e25578);
+}
+
+.delete-button:hover {
+  background: linear-gradient(45deg, #eb0000, #882727);
+}
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    background-color: #e2f0f7;
+  }
+  
+  .search-input:focus {
+    border-color: #007074;
+  }
+  
+
+  .pdf-download-button {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #007bff, #00bcd4);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    
+  }
+  
+  .pdf-download-button:hover {
+    background: linear-gradient(45deg, #0056b3, #0097a7);
+  }
+  
+  .pdf-download-button:active {
+    transform: translateY(1px);
+  }
+
+.total-amount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  
+  border-radius: 5px;
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.total-amount::after {
+  content: ' /='; /* Currency indicator */
+}
+
+.pay-now-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust this value to position the button lower */
+}
+
+.pay-now-button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pay-now-button:hover {
+  background: linear-gradient(45deg, #0056b3, #0097a7);
+}
+
+.coupon{
+  font-weight: bold;
+}
+
+
+.update{
+  padding: 8px 15px;
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #007bff, #00bcd4);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update:hover {
+  background: linear-gradient(45deg, #0056b3, #0097a7);
+}

@@ -1,0 +1,143 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  gap: 1rem;
+  background-color: #D9D9D9;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  transition: border-color 0.3s, background-color 0.3s;
+  width: 20vh;
+  height: 40vh;
+}
+
+@media screen and (min-width: 768px) {
+  .product-container {
+      width: 35vh;
+      height: 58vh;
+  }
+}
+
+.product-container:hover {
+  border-color: #0053b3;
+  background-color: #e0e0e0;
+}
+
+.image-container {
+  width: 100%;
+  height: 12vh;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+      width: 32vh;
+      height: 33vh;
+  }
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-name {
+  text-align: center;
+}
+
+.name-tag {
+  font-size: 1rem;
+  color: #6D6D6D;
+  padding: 0.01rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.description {
+  max-width: 12.5rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #6D6D6D;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 10px
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  padding: 0.3rem 0.4rem;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.quantity-input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin: 0 0.3rem;
+}
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4D4D4D;
+  color: white;
+  border: 1px solid #0053b3;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.2rem;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .add-to-cart {
+    padding: 0.25rem 0.5rem;
+    font-size: 15px;
+  }
+}
+
+.add-to-cart:hover {
+  background-color: #004287;
+  border-color: #004287;
+}
+
+.stock-info {
+  display: flex;
+  align-items: center;
+}
+
+.stock-indicator {
+  width: 0.15rem;
+  height: 0.15rem;
+  background-color: #4caf50;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.stock-text-stock {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .add-to-cart {
+    font-size: 16px;
+  }
+}

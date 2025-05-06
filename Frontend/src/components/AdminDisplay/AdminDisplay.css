@@ -1,0 +1,27 @@
+.admin-update-button {
+    background-color: #48ee35;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .admin-update-button:hover {
+    background-color: #1ea90e;
+  }
+
+  .admin-delete-button {
+    background-color: #ff9d9d;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .admin-delete-button:hover {
+    background-color: #fe6666;
+  }

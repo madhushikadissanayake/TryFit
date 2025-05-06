@@ -1,0 +1,70 @@
+#formStart {
+  max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/*Print req form topic*/
+.topicTitle {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemRow {
+  margin-bottom: 2px;
+}
+
+.GetItemDetails {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button {
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #0047ab;
+  color: #ffffff;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.button:hover {
+  opacity: 0.7;
+  background-color: #0047ab; /* Keeps the color same on hover */
+}
+
+.button:disabled {
+  opacity: 0.5; /* Optional: Adjust opacity for disabled state */
+  cursor: not-allowed;
+}
