@@ -1,0 +1,54 @@
+/* Payment Page.css */
+
+.paymentForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  flex-direction: column;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  font-size: 20px;
+}
+
+.paymentForm form{
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.paymentForm form .title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  
+}
+
+.paymentForm form input{
+ width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid #000;
+border-radius: 4px;
+}
+
+.paymentForm form button{
+  border: 1px solid #000;
+  border-radius: 0;
+  background-color: #000;
+  color: white;
+  font-size: 20px;
+  width: 500px;
+  margin: 15px;
+  padding: 18px;
+}
+
+.paymentForm form button:hover{
+  border: 1px solid #000;
+  background: #000;
+  background: linear-gradient(to right, #434343, #000);
+  width: 500px;
+}

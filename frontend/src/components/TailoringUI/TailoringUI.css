@@ -1,0 +1,219 @@
+.tailoring-container {
+  display: flex;
+}
+.form-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Title styling */
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #4D4D4D;
+}
+
+/* Form styling */
+.custom-tailoring-form {
+  background-color: #E9E9E9;
+  border: 1px solid #4D4D4D;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Form labels */
+.custom-tailoring-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Form input fields */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #4D4D4D;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+/* Gender group styling */
+.gender-group {
+  margin-bottom: 16px;
+}
+
+.gender-group legend {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.gender-group label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Submit button styling */
+.submit-button {
+  background-color: #4D4D4D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Submit button hover effect */
+.submit-button:hover {
+  background-color: #333;
+}
+
+/* Country flag styling */
+.country-flag {
+  width: 20px;
+  height: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Picture box styling */
+.picture-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Container for picture or empty message */
+.picture-container {
+  border: 1px solid #4D4D4D;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #F9F9F9;
+}
+
+/* Styling for the generated outfit image */
+.outfit-images {
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styling for the empty message */
+.empty-message {
+  padding: 20px;
+  border: 1px solid #4D4D4D;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #4D4D4D;
+  font-size: 16px;
+}
+
+
+/* Container for buttons */
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Request Outfit button styling */
+.request-button {
+  background-color: #4D4D4D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* Request Outfit button hover effect */
+.request-button:hover {
+  background-color: #333;
+}
+
+/* Regenerate button styling */
+.regenerate-button {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Regenerate button hover effect */
+.regenerate-button:hover {
+  background-color: #e67e22;
+}
+
+
+
+/* BOXX */
+
+.my-orders-box {
+  background: linear-gradient(135deg, #f3f4f6, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  margin: 100px 100px;
+  text-align: center;
+  height: 300px;
+}
+
+.box-content {
+  position: relative;
+}
+
+.user-icon {
+  font-size: 50px;
+  color: #4a90e2;
+}
+
+.box-title {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.box-description {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.view-orders-btn {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.view-orders-btn:hover {
+  background: #357abd;
+}
+
+.box-icon {
+  margin-right: 8px;
+  font-size: 20px;
+}

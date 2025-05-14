@@ -1,0 +1,46 @@
+/* Recommend Page.css */
+
+.recommendations-container {
+    padding: 20px;
+  }
+  
+  .recommendations-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recommendation-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .recommendation-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .recommendation-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .recommendation-price {
+    color: #555;
+  }
+  
+  .view-details {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .header {
+    padding: 8px;
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+  }
